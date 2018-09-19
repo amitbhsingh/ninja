@@ -195,6 +195,82 @@
 
 				<!-- Footer -->
 					<footer id="footer">
+						
+						
+						
+						
+						
+						
+<script>
+  window.facebookPlugins = window.facebookPlugins ||
+    {
+      init : function() {
+        FB.init({ appId: "2015199145383303", xfbml: true, version: "v2.12" });
+      },
+      cb : [] 
+    };
+  window.facebookPlugins.cb.push(function() {
+    var user_ref, elements = document.querySelectorAll(".fb-send-to-messenger[page_id='undefined']");
+    if (elements) {
+      for( i = 0; i < elements.length; i++ ) {
+        user_ref = 'mobile-monkey_' + Math.random().toString(36).substring(2) + Math.random().toString(36).substring(2);
+        elements[i].setAttribute('user_ref', user_ref);
+        elements[i].setAttribute('origin', window.location.href);
+      }
+    }
+  });
+  window.fbAsyncInit = window.fbAsyncInit ||
+    function() {
+      window.facebookPlugins.cb.forEach( function( item ) {
+        item();
+      });
+      window.facebookPlugins.init();
+    };
+     (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) { return; }
+       js = d.createElement(s);
+       js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }
+    (document, 'script', 'facebook-jssdk'));
+</script>
+  <div 
+    class="fb-send-to-messenger" 
+    messenger_app_id="2015199145383303" 
+    page_id="undefined" 
+    data-ref="82a0c8e8d0d59174bafe3f0b33bb0ea80acb360ee94ba33b01" 
+    color="blue" 
+    size="large"
+  >
+  </div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
